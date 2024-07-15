@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive Login & Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <section class="box sign_in">
+            <h2>Already have an Account?</h2>
+            <button class="tab" id="sign_in_button">Sign in</button>
+        </section>
+        <section class="box sign_up">
+            <h2>Don´t have an Account?</h2>
+            <button class="tab" id="sign_up_button">Sign up</button>
+        </section>
+        <section class="form_container">
+
+            <div class="sign_in_box form_box">
+                <form action="#" method="post">
+                    <h3>Sign In</h3>
+                    <input type="text" id="username_sign_in" placeholder="username">
+                    <input type="password" id="password_sign_in" placeholder="password">
+                    <button class="primary" href="#">Login</button>
+                    <a href="#">Forgot Password?</a>
+                </form>
+            </div>
+
+            <div class="sign_up_box form_box">
+                <form action="#" method="post">
+                    <h3>Sign Up</h3>
+                    <input type="text" id="_sign_up" placeholder="username">
+                    <input type="text" id="email" placeholder="email">
+                    <input type="password" id="password_sign_up" placeholder="password">
+                    <input type="password" id="confirm_password" placeholder="confirm password">
+                    <button class="secondary">Register</button>
+                </form>
+            </div>
+        </section>
+        </div>
+        <script src="main.js"></script>
+</body>
+</html>
